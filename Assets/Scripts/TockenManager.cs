@@ -22,6 +22,6 @@ public class TockenManager : MonoBehaviour
 
     IEnumerator LoadNextScene() {
         yield return new WaitForSeconds(1.5f);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Testlevel2");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level2");
     }
 }
